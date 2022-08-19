@@ -44,7 +44,7 @@ def play_file(filename='audio.wav'):
 if __name__=="__main__":   
   # play_file()
   # plot_one_period_sine(44100, 32767)
-  # make_wave_file('foo.wav'); play_file('foo.wav')
+  # make_wave_file('white_noise.wav'); play_file('white_noise.wav')
 
   make_sine_audio_file(filename='my_sine.wav'); play_file('my_sine.wav')
     
